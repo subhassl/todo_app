@@ -6,6 +6,7 @@ from django.views.generic.detail import DetailView
 from .models import Task
 
 
+# dummy reference
 def dummyview(request):
 
     tasks = models.Task.objects.all()
